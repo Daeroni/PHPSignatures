@@ -384,7 +384,7 @@ return [
     'tidy' => ['errorBuffer' => 'string'],
     'tidynode' => [
         'attribute' => 'array',
-        'child' => 'array',
+        'child' => '?array',
         'column' => 'int',
         'id' => 'int',
         'line' => 'int',
